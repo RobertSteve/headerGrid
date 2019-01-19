@@ -3,6 +3,23 @@ body {
   justify-content: center;
   font-family: 'Open Sans', sans-serif;
 }
+/*
+ * General
+ */
+.mr-2 {
+  margin-right: 5px !important;
+}
+.live {
+  font-size: 28px;
+  color: #2ad4c6;
+}
+.tomorrowHeader {
+  display: flex;
+  justify-content: space-between;
+  font-size: 28px;
+  color: #454d6b;
+  padding: 60px 20px 45px 20px;
+}
 .content-sbs {
   background-color: #f7f9ff;
   width: 755px;
@@ -12,7 +29,7 @@ body {
   padding: 25px 20px 20px 20px;
 }
 .date_sbs {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 16px;
   color: #717e91;
   font-weight: 400;
@@ -22,25 +39,30 @@ body {
   justify-content: space-between;
   color: #454d6b;
   font-size: 26px;
-  margin-top: 20px;
   margin-bottom: 10px;
+  font-weight: 300;
+}
+.info_sbs .count-sbs {
+  display: flex;
+}
+.info_sbs .count-sbs .offerts_sbs {
+  font-size: 20px;
+  color: #717e91;
   font-weight: 300;
 }
 .from_sbs {
   font-weight: 700;
 }
 .from_sbs::before {
-  content: "";
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background-color: #454d6b;
+  content: "•";
+  margin-right: 5px;
 }
 .rate_sbs {
   display: flex;
   font-size: 14px;
   color: #717e91;
   font-weight: 400;
+  align-items: center;
 }
 .rate_sbs .ul_sbs {
   list-style-type: none;
@@ -49,15 +71,11 @@ body {
   margin: 0;
 }
 .rate_sbs .ul_sbs li {
+  font-size: 14px;
   float: left;
 }
-.rate_calf {
+.rate_sbs .rate_calf {
   font-size: 10px;
   color: #717e91;
   font-weight: 400;
-}
-.offerts_sbs {
-  font-size: 20px;
-  color: #717e91;
-  font-weight: 300;
 }

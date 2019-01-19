@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +7,28 @@
     <title>Encuesta</title>
     <link rel="stylesheet" href="app/css/style.css">
     <link rel="stylesheet" href="app/css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 
 <body>
-    <!-- <div id="appPollHistory">
-        <poll question-one="¿Está satisfecho con el lote abjudicado?" question-two="¿Como calificarias tu experiencia con Olva Curier?"
-            question-three="Dejanos tu testimonio" client-name="Olva Curier" client-id="98" sid="3" type-poll="" from="session"
-            ep-id-one="2" ep-id-two="1" ep-id-three="3" type-question-one="2" type-question-two="2" type-question-three="1"
-            poll-type="vendedor" img="app/img/imgComprador.png">
-        </poll>
-    </div> -->
     <div>
+        <div class="tomorrowHeader">
+            <div>
+                Miércoles, 14 de Enero <span class="from_sbs">Desde</span> 02:00 PM
+            </div>
+            <div>
+                (30 Ofertas)
+            </div>
+        </div>
+        <div class="tomorrowHeader">
+            <div>
+                Mañana <span class="from_sbs">Desde</span> 02:00 PM
+            </div>
+            <div>
+                (30 Ofertas)
+            </div>
+        </div>
         <div class="content-sbs">
             <div class="header">
                 <div class="date_sbs">
@@ -35,23 +43,19 @@
                     </div>
                 </div>
                 <div class="rate_sbs">
-                    <span>3.9 Bueno</span>
-                    <ul class="ul_sbs">
+                    <span class="mr-2">3.9 Bueno</span>
+                    <ul class="ul_sbs mr-2">
                         <li>★</li>
                         <li>★</li>
                         <li>★</li>
                         <li>★</li>
                         <li>★</li>
                     </ul>
-                    <span class="rate_calf">Opiniones: 160</span>
+                    <span class="rate_calf mr-2">Opiniones: 160</span>
                 </div>
             </div>
         </div>
     </div>
-
+    <script src="app/js/header.js"></script>
 </body>
-
-
-<script src="app/js/header.js"></script>
-
 </html>
