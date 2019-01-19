@@ -27,15 +27,23 @@
                     Miércoles, 14 de Enero <span class="from_sbs">Desde</span> 02:00 PM
                 </div>
                 <div class="info_sbs">
-                    <div class="tittle-sbs">
+                    <div class="tittle_sbs">
                         Operaciones y Servicios Logisticos JR
                     </div>
                     <div class="count-sbs">
-                        (30 Ofertas)
+                        <span class="offerts_sbs">(30 Ofertas)</span>
                     </div>
                 </div>
                 <div class="rate_sbs">
-                    3.9 Bueno ***** Calificaciones: 160
+                    <span>3.9 Bueno</span>
+                    <ul class="ul_sbs">
+                        <li>★</li>
+                        <li>★</li>
+                        <li>★</li>
+                        <li>★</li>
+                        <li>★</li>
+                    </ul>
+                    <span class="rate_calf">Opiniones: 160</span>
                 </div>
             </div>
         </div>
