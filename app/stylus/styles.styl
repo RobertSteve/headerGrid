@@ -1,68 +1,108 @@
 body 
-    display flex
-    justify-content center
     font-family 'Open Sans', sans-serif
+    padding 0
+    margin 0
 /*
  * General
  */
 .mr-2
     margin-right 5px !important
-.tomorrowHeader
+.headerVMC
     display flex
     justify-content space-between
+    padding 60px 20px 45px 20px
+    width 750px
     font-size 28px
     color #454d6b
-    padding 60px 20px 45px 20px
+    font-weight 300
+    @media screen and (max-width: 768px) 
+        width 100%   
+    .leftHeader
+        display flex
+        .liveHeaderVMC
+            color #2ad4c6
+            margin-left 5px
+    .from_sbs
+        font-weight 300
+        &::before
+            content "•"
+            margin-right 5px
 .content-sbs
     background-color #f7f9ff
-    width 755px
-.header    
-    flex-direction column
-    padding 25px 20px 20px 20px
+    width 790px
+    @media screen and (max-width: 768px) 
+        width 100%
+        background-color #f7f9ff
+        border-bottom 1px solid #d9ddf3;
+    .header    
+        flex-direction column
+        padding 25px 20px 20px 20px
+        @media screen and (max-width: 768px) 
+            padding 10px
+        .date_sbs
+            margin-bottom 15px
+            font-size 16px 
+            color #717e91
+            font-weight 400
+            .from_sbs
+                font-weight 400
+                color #454d6b
+                &::before
+                    content "•"
+                    margin-right 5px
+        .info_sbs
+            display flex
+            justify-content space-between
+            color #454d6b
+            font-size 26px
+            margin-bottom 10px
+            font-weight 300
+            @media screen and (max-width: 768px) 
+                margin-bottom 5px
+            .title
+                @media screen and (max-width: 768px) 
+                    font-size 18px
+                    color #454d6b
+            .count-sbs
+                display flex
+                .offerts_sbs
+                    font-size 20px
+                    color #717e91
+                    font-weight 300
+        .rate_sbs
+            display flex
+            font-size 14px
+            color  #717e91
+            font-weight 400
+            align-items center
+            @media screen and (max-width: 768px) 
+                flex-direction column
+                align-items flex-start
+            .ul_sbs
+                list-style-type none
+                overflow hidden
+                padding 0
+                margin 0
+                li
+                    font-size 14px
+                    float left
+            .rate_calf
+                font-size 10px
+                color #717e91
+                font-weight 400
 
-.date_sbs
-    margin-bottom 15px
-    font-size 16px 
-    color #717e91
-    font-weight 400
-
-.info_sbs
+.headerPrimary
+    width calc(100%-20px)
+    padding 10px
+    background-color #5b638a
+    color #ffffff
     display flex
     justify-content space-between
-    color #454d6b
-    font-size 26px
-    margin-bottom 10px
-    font-weight 300
-    .count-sbs
-        display flex
-        .offerts_sbs
-            font-size 20px
-            color #717e91
-            font-weight 300
-.from_sbs
-    font-weight 700
-    &::before
-        content "•"
-        margin-right 5px
-.rate_sbs
-    display flex
-    font-size 14px
-    color  #717e91
-    font-weight 400
     align-items center
-    .ul_sbs
-        list-style-type none
-        overflow hidden
-        padding 0
-        margin 0
-        li
-            font-size 14px
-            float left
-    .rate_calf
-        font-size 10px
-        color #717e91
-        font-weight 400
-
-
-
-    
+    font-size 14px
+    .leftHeaderPrimary
+        display flex
+        align-items center
+        .contentLeftHeaderPrimary
+            .hour
+                font-weight: 700
